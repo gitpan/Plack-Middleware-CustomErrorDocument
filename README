@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-CustomErrorDocument,
-version 0.001:
+version 0.002:
 
   dynamically select error documents based on HTTP status code
 

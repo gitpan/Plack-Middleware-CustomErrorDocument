@@ -19,4 +19,4 @@ name: Plack-Middleware-CustomErrorDocument
 resources:
   bugtracker: https://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument/issues
   repository: git://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument.git
-version: 0.001
+version: 0.002

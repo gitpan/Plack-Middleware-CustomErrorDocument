@@ -1,3 +1,4 @@
+Changes
 CustomErrorDocument.pm
 LICENSE
 MANIFEST
@@ -10,5 +11,4 @@ t/root/error_404.html
 t/root/error_404.jpg
 t/root/error_404_special.html
 t/root/error_500.html
-tmp.pl
 weaver.ini
