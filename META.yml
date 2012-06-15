@@ -1,0 +1,22 @@
+---
+abstract: 'dynamically select error documents based on HTTP status code'
+author:
+  - 'Michael Jemmeson <michael.jemmeson@gmail.com>'
+build_requires:
+  Plack::Middleware::CustomErrorDocument: 0
+  Plack::Middleware::ErrorDocument: 0
+  Plack::Test: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300014, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-Middleware-CustomErrorDocument
+resources:
+  bugtracker: https://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument/issues
+  repository: git://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument.git
+version: 0.001

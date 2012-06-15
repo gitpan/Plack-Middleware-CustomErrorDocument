@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Plack-Middleware-CustomErrorDocument,
+version 0.001:
+
+  dynamically select error documents based on HTTP status code
+
+This software is copyright (c) 2012 by Foxtons Ltd.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+

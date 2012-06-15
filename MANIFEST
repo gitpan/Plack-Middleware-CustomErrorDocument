@@ -1,0 +1,14 @@
+CustomErrorDocument.pm
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+t/basic.t
+t/root/error_404.html
+t/root/error_404.jpg
+t/root/error_404_special.html
+t/root/error_500.html
+tmp.pl
+weaver.ini
