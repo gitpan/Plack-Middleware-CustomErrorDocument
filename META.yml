@@ -31,7 +31,7 @@ no_index:
 provides:
   Plack::Middleware::CustomErrorDocument:
     file: lib/Plack/Middleware/CustomErrorDocument.pm
-    version: 0.003
+    version: 0.004
 requires:
   HTTP::Status: 0
   Plack::MIME: 0
@@ -46,4 +46,4 @@ resources:
   bugtracker: https://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument/issues
   homepage: https://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument
   repository: https://github.com/mjemmeson/Plack-Middleware-CustomErrorDocument.git
-version: 0.003
+version: 0.004

@@ -2,7 +2,7 @@ package Plack::Middleware::CustomErrorDocument;
 
 # ABSTRACT: dynamically select error documents based on HTTP status code
 
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 use strict;
 use warnings;
@@ -94,7 +94,7 @@ Plack::Middleware::CustomErrorDocument - dynamically select error documents base
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -121,8 +121,8 @@ version 0.003
         $app;
     };
 
-    # subrequests are possible as with Plack::Middleware::ErrorDocument
-    # (but untested!)
+    # subrequests are possible, as with Plack::Middleware::ErrorDocument
+    # (but untested and unrecommended)
     $app = Plack::Middleware::CustomErrorDocument->wrap(
         $app,
         404 => sub {
